@@ -1,0 +1,16 @@
+PODS:
+  - NimbleEvents (1.0.0)
+
+DEPENDENCIES:
+  - NimbleEvents (from `../`)
+
+EXTERNAL SOURCES:
+  NimbleEvents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NimbleEvents: 7ff79a28b3c548705f5d748f1ad345858c1930ff
+
+PODFILE CHECKSUM: 8531489241eabce34c8ad5b6c78f20d9c5fdfbe4
+
+COCOAPODS: 1.12.1

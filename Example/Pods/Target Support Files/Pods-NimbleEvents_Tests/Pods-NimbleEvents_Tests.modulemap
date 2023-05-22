@@ -1,0 +1,6 @@
+framework module Pods_NimbleEvents_Tests {
+  umbrella header "Pods-NimbleEvents_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

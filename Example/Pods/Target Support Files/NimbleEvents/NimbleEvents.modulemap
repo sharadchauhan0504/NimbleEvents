@@ -1,0 +1,6 @@
+framework module NimbleEvents {
+  umbrella header "NimbleEvents-umbrella.h"
+
+  export *
+  module * { export * }
+}

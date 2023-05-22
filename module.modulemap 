@@ -1,0 +1,4 @@
+module NimbleEventsPrivate {
+  header "../SwiftCFileForOps.h"
+  export *
+}

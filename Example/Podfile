@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NimbleEvents_Example' do
+  pod 'NimbleEvents', :path => '../'
+
+  target 'NimbleEvents_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
