@@ -11,7 +11,7 @@
 #endif
 
 #import "NimbleEvents-Bridging-Header.h"
-#import "SwiftCFileForOps.h"
+
 
 FOUNDATION_EXPORT double NimbleEventsVersionNumber;
 FOUNDATION_EXPORT const unsigned char NimbleEventsVersionString[];
