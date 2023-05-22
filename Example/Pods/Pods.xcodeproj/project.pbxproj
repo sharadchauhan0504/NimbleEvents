@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = NimbleEvents;
+			productName = NimbleEvents;
 		};
 /* End PBXAggregateTarget section */
 
@@ -45,8 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18F1032EEDECA61B9065A5BA4413E47C /* NimbleEvents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NimbleEvents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1CFCF85D51D0B1B0255175F8AECFDC59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		18F1032EEDECA61B9065A5BA4413E47C /* NimbleEvents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NimbleEvents.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		1CFCF85D51D0B1B0255175F8AECFDC59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2D60A062282C7F38780D082C4F24CA76 /* Pods-NimbleEvents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NimbleEvents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3136DF3D17503AE836BB87187DDE0D9A /* Pods-NimbleEvents_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NimbleEvents_Example-Info.plist"; sourceTree = "<group>"; };
 		43E34EA8A47DE1D2A41F777E5DC9FA30 /* NimbleEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NimbleEvents.release.xcconfig; sourceTree = "<group>"; };
@@ -60,8 +61,12 @@
 		746926FC759AB591FDEA25C9617C522E /* Pods-NimbleEvents_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NimbleEvents_Example"; path = Pods_NimbleEvents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA79A98B907DD982D8BCE8AE9BEF21D /* NimbleEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NimbleEvents.debug.xcconfig; sourceTree = "<group>"; };
 		7E688CFDE82445532A7F59AFE7D6DA6A /* Pods-NimbleEvents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NimbleEvents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF1A0332A1B92F100D79596 /* NimbleEvents-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NimbleEvents-Bridging-Header.h"; sourceTree = "<group>"; };
+		8AF1A0342A1B92F200D79596 /* SwiftCFileForOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftCFileForOps.h; sourceTree = "<group>"; };
+		8AF1A0352A1B92F200D79596 /* SwiftPublicMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPublicMethods.swift; sourceTree = "<group>"; };
+		8AF1A0362A1B92F200D79596 /* SwiftCFileForOps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SwiftCFileForOps.c; sourceTree = "<group>"; };
 		97D9DE9893ADB2C00C5314D66468CBF5 /* Pods-NimbleEvents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NimbleEvents_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A85A1544076EC32C690C2F70FB101421 /* Pods-NimbleEvents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NimbleEvents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B06C84C436A56A7B79E4BE0789E6BEDF /* Pods-NimbleEvents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NimbleEvents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB004805D2768D18325A63732C3860A2 /* Pods-NimbleEvents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NimbleEvents_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,7 +74,7 @@
 		C8EF8D0372DBBC7F39B388BADAD8AA62 /* Pods-NimbleEvents_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NimbleEvents_Tests"; path = Pods_NimbleEvents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7CF48A8F416B59C5DAE4E7D6611328 /* Pods-NimbleEvents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NimbleEvents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CCF7AF2405CB80F900D50042BA0DD523 /* Pods-NimbleEvents_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NimbleEvents_Tests-Info.plist"; sourceTree = "<group>"; };
-		F5053349DFB612C46B027C001DE34D1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F5053349DFB612C46B027C001DE34D1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +131,21 @@
 			path = "Target Support Files/Pods-NimbleEvents_Example";
 			sourceTree = "<group>";
 		};
+		8AF1A0322A1B92D600D79596 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1A0362A1B92F200D79596 /* SwiftCFileForOps.c */,
+				8AF1A0342A1B92F200D79596 /* SwiftCFileForOps.h */,
+				8AF1A0352A1B92F200D79596 /* SwiftPublicMethods.swift */,
+				8AF1A0332A1B92F100D79596 /* NimbleEvents-Bridging-Header.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A3B801C35D84CF93A76AE9B255696CE4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				8AF1A0322A1B92D600D79596 /* Classes */,
 				1CFCF85D51D0B1B0255175F8AECFDC59 /* LICENSE */,
 				18F1032EEDECA61B9065A5BA4413E47C /* NimbleEvents.podspec */,
 				F5053349DFB612C46B027C001DE34D1F /* README.md */,
@@ -275,6 +292,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					38FA8C208ADA8FF3F4CBB4D902210BD4 = {
+						LastSwiftMigration = 1430;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -354,10 +376,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Classes/NimbleEvents-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,8 +476,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -630,10 +655,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Classes/NimbleEvents-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
