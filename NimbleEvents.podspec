@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NimbleEvents'
-  s.version          = '1.0.0'
+  s.version          = '1.1.1'
   s.summary          = 'This pod is for NimbleEdge task.'
 
 # This description is used to generate tags and improve search results.

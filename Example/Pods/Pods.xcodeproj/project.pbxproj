@@ -61,10 +61,11 @@
 		746926FC759AB591FDEA25C9617C522E /* Pods-NimbleEvents_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NimbleEvents_Example"; path = Pods_NimbleEvents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA79A98B907DD982D8BCE8AE9BEF21D /* NimbleEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NimbleEvents.debug.xcconfig; sourceTree = "<group>"; };
 		7E688CFDE82445532A7F59AFE7D6DA6A /* Pods-NimbleEvents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NimbleEvents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8AF1A0332A1B92F100D79596 /* NimbleEvents-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NimbleEvents-Bridging-Header.h"; sourceTree = "<group>"; };
-		8AF1A0342A1B92F200D79596 /* SwiftCFileForOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftCFileForOps.h; sourceTree = "<group>"; };
-		8AF1A0352A1B92F200D79596 /* SwiftPublicMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPublicMethods.swift; sourceTree = "<group>"; };
-		8AF1A0362A1B92F200D79596 /* SwiftCFileForOps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SwiftCFileForOps.c; sourceTree = "<group>"; };
+		8AF1A03A2A1B943A00D79596 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8AF1A03B2A1B945F00D79596 /* NimbleEvents-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NimbleEvents-Bridging-Header.h"; sourceTree = "<group>"; };
+		8AF1A03C2A1B945F00D79596 /* SwiftPublicMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPublicMethods.swift; sourceTree = "<group>"; };
+		8AF1A03D2A1B945F00D79596 /* SwiftCFileForOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftCFileForOps.h; sourceTree = "<group>"; };
+		8AF1A03E2A1B945F00D79596 /* SwiftCFileForOps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SwiftCFileForOps.c; sourceTree = "<group>"; };
 		97D9DE9893ADB2C00C5314D66468CBF5 /* Pods-NimbleEvents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NimbleEvents_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A85A1544076EC32C690C2F70FB101421 /* Pods-NimbleEvents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NimbleEvents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -131,21 +132,23 @@
 			path = "Target Support Files/Pods-NimbleEvents_Example";
 			sourceTree = "<group>";
 		};
-		8AF1A0322A1B92D600D79596 /* Classes */ = {
+		8AF1A0392A1B943A00D79596 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8AF1A0362A1B92F200D79596 /* SwiftCFileForOps.c */,
-				8AF1A0342A1B92F200D79596 /* SwiftCFileForOps.h */,
-				8AF1A0352A1B92F200D79596 /* SwiftPublicMethods.swift */,
-				8AF1A0332A1B92F100D79596 /* NimbleEvents-Bridging-Header.h */,
+				8AF1A03B2A1B945F00D79596 /* NimbleEvents-Bridging-Header.h */,
+				8AF1A03E2A1B945F00D79596 /* SwiftCFileForOps.c */,
+				8AF1A03D2A1B945F00D79596 /* SwiftCFileForOps.h */,
+				8AF1A03C2A1B945F00D79596 /* SwiftPublicMethods.swift */,
+				8AF1A03A2A1B943A00D79596 /* .gitkeep */,
 			);
-			path = Classes;
+			name = Classes;
+			path = NimbleEvents/Classes;
 			sourceTree = "<group>";
 		};
 		A3B801C35D84CF93A76AE9B255696CE4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8AF1A0322A1B92D600D79596 /* Classes */,
+				8AF1A0392A1B943A00D79596 /* Classes */,
 				1CFCF85D51D0B1B0255175F8AECFDC59 /* LICENSE */,
 				18F1032EEDECA61B9065A5BA4413E47C /* NimbleEvents.podspec */,
 				F5053349DFB612C46B027C001DE34D1F /* README.md */,
