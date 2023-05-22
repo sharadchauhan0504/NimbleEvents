@@ -1,6 +1,5 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
-#include "SwiftCFileForOps.h"
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)
@@ -11,6 +10,8 @@
 #endif
 #endif
 
+#import "NimbleEvents-Bridging-Header.h"
+#import "SwiftCFileForOps.h"
 
 FOUNDATION_EXPORT double NimbleEventsVersionNumber;
 FOUNDATION_EXPORT const unsigned char NimbleEventsVersionString[];
