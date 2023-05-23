@@ -2,28 +2,33 @@ import XCTest
 import NimbleEvents
 
 class Tests: XCTestCase {
-    
-    var swiftPublicMethods: SwiftPublicMethods!
-    
+        
     override func setUp() {
         super.setUp()
-        swiftPublicMethods = SwiftPublicMethods()
     }
     
     func testAddEventToSystem() {
+        let swiftPublicMethods = SwiftPublicMethods()
         let success = swiftPublicMethods.addEventToSystem(map: ["key1": "2", "key2": "3"])
         XCTAssertTrue(success)
     }
 
     func testGetAggregatedAnswer() {
+        let swiftPublicMethods = SwiftPublicMethods()
+        let success = swiftPublicMethods.addEventToSystem(map: ["key1": "2", "key2": "3"])
+        sleep(5)
+        _ = swiftPublicMethods.addEventToSystem(map: ["key1": "1", "key2": "3"])
+        sleep(10)
+        _ = swiftPublicMethods.addEventToSystem(map: ["key1": "3", "key2": "3"])
+        XCTAssertTrue(success)
+        
         let values = swiftPublicMethods.getAggregatedAnswer(key: "key1")
-        XCTAssertEqual(values, [1, 1])
+        XCTAssertEqual(values, [3.0, 6.0])
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
-        swiftPublicMethods = nil
     }
     
     func testExample() {

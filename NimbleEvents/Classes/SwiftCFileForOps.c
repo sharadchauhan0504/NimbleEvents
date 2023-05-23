@@ -51,12 +51,12 @@ float *getAggregatedAnswerC(const char *key) {
             time_t eventTime = events[i].timestamp;
             time_t timeDiff = currentTime - eventTime;
             
-            if (timeDiff <= 10) {
-                sum10Secs += 1;
+            if (timeDiff < 10) {
+                sum10Secs += atoi(events[i].value);
             }
             
-            if (timeDiff <= 20) {
-                sum20Secs += 1;
+            if (timeDiff < 20) {
+                sum20Secs += atoi(events[i].value);
             }
         }
     }
